@@ -1,4 +1,4 @@
-package src.main.java.team44.project;
+package group44.Project;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

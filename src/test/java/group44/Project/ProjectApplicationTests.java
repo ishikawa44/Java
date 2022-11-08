@@ -1,4 +1,4 @@
-package src.test.java.team44.project;
+package group44.Project;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
