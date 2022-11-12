@@ -8,55 +8,32 @@
 
 </head>
 <body>
-<nav class="navbar navbar-expand-lg bg-white sticky-top navbar-light p-3 shadow-sm">
+<header class="p-3 bg-dark text-white">
     <div class="container">
-        <a class="navbar-brand" href="/"><i class="fa-solid fa-shop"></i><strong>Shop.Project</strong></a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown"
-                aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
+        <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+            <a href="/" class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none">
+                <svg class="bi me-2" width="40" height="32" role="img" aria-label="Bootstrap"><use xlink:href="logo.png"></use></svg>
+            </a>
 
-        <div class="mx-auto my-3 d-lg-none d-sm-block d-xs-block">
-            <div class="input-group">
-                <span class="border-warning input-group-text bg-warning text-white"><i class="fa-solid fa-magnifying-glass"></i></span>
-                <input type="text" class="form-control border-warning" style="color:#7a7a7a">
-                <button class="btn btn-warning text-white">Search</button>
-            </div>
-        </div>
-        <div class=" collapse navbar-collapse" id="navbarNavDropdown">
-            <div class="ms-auto d-none d-lg-block">
-                <div class="input-group">
-                    <span class="border-warning input-group-text bg-warning text-white"><i class="fa-solid fa-magnifying-glass"></i></span>
-                    <input type="text" class="form-control border-warning" style="color:#7a7a7a">
-                    <button class="btn btn-warning text-white">Search</button>
-                </div>
-            </div>
-            <ul class="navbar-nav ms-auto ">
-                <li class="nav-item">
-                    <a class="nav-link mx-2 text-uppercase" href="#">Phones</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link mx-2 text-uppercase" href="#">Catalog</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link mx-2 text-uppercase" href="#">Services</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link mx-2 text-uppercase" href="#">About</a>
-                </li>
+            <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+                <li><a href="#" class="nav-link px-2 text-secondary">Home</a></li>
+                <li><a href="#" class="nav-link px-2 text-white">Features</a></li>
+                <li><a href="#" class="nav-link px-2 text-white">Pricing</a></li>
+                <li><a href="#" class="nav-link px-2 text-white">FAQs</a></li>
+                <li><a href="#" class="nav-link px-2 text-white">About</a></li>
             </ul>
-            <ul class="navbar-nav ms-auto ">
-                <li class="nav-item">
-                    <a class="nav-link mx-2 text-uppercase" href="#"><i class="fa-solid fa-cart-shopping me-1"></i> Cart</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link mx-2 text-uppercase" href="#"><i class="fa-solid fa-circle-user me-1"></i> Account</a>
-                </li>
-            </ul>
+
+            <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3">
+                <input type="search" class="form-control form-control-dark" placeholder="Search..." aria-label="Search">
+            </form>
+
+            <div class="text-end">
+                <button type="button" class="btn btn-outline-light me-2">Login</button>
+                <button type="button" class="btn btn-warning">Sign-up</button>
+            </div>
         </div>
     </div>
-</nav>
+</header>
 <p th:text="'Welcome to the Club, buddy ' + ${title} + '!'" />
 </body>
 </html>
