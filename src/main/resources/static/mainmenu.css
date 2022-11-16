@@ -7,6 +7,7 @@
     list-style: none;
     background: #383c54;
     position: relative;
+    margin-top: 18px;
 }
 
 .menu a {
@@ -29,6 +30,7 @@
     top: 100%;
     display: none;
     padding: 0;
+
 }
 
 .menu li:hover > ul {
