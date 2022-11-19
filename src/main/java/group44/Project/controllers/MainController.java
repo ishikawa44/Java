@@ -17,5 +17,16 @@ public class MainController {
         model.addAttribute("title", "about");
         return "about";
     }
+    @GetMapping("/SignUp")
+    public String SignUp(Model model) {
+        model.addAttribute("title", "Sign Up");
+        return "Registration";
+    }
+    @GetMapping("/Login")
+    public String Login(Model model) {
+        model.addAttribute("title", "Login");
+        return "Login";
+    }
+
 
 }
