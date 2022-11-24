@@ -18,7 +18,7 @@ public class MainController {
     @GetMapping("/")
     public String main(Model model) {
         model.addAttribute("title", "Main page");
-        Iterable<Tovars> tovars = tovarsRepository.findAll();
+        Iterable<Tovars> tovars = tovarsRepository.findAllByOrderByIdDesc();
         model.addAttribute("tovars",tovars);
         return "Home";
     }
