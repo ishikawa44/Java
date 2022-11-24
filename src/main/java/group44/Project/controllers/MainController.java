@@ -27,7 +27,7 @@ public class MainController {
         return "Home-add";
     }
     @PostMapping("/add")
-    public @ResponseBody String mainAddNew(@RequestParam String brand, @RequestParam String name,
+    public String mainAddNew(@RequestParam String brand, @RequestParam String name,
     @RequestParam String category,@RequestParam String description,@RequestParam Integer price,
                          @RequestParam String imgur, Model model){
 
@@ -40,7 +40,7 @@ public class MainController {
         t.setImgur(imgur);
 
         tovarsRepository.save(t);
-        return "Home";
+        return "redirect:/";
     }
 
 
