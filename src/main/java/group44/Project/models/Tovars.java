@@ -13,8 +13,8 @@ public class Tovars {
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
 
-    private String name,category,brand,description,imgurl;
-    private int price;
+    private String name,category,brand,description,imgur;
+    private Integer price;
 
     public Long getId() {
         return id;
@@ -57,19 +57,31 @@ public class Tovars {
         this.description = description;
     }
 
-    public int getPrice() {
+    public Integer getPrice() {
         return price;
     }
 
-    public void setPrice(int price) {
+    public void setPrice(Integer price) {
         this.price = price;
     }
 
-    public String getImgurl() {
-        return imgurl;
+    public String getImgur() {
+        return imgur;
     }
 
-    public void setImgurl(String imgurl) {
-        this.imgurl = imgurl;
+    public void setImgur(String imgurl) {
+        this.imgur = imgurl;
+    }
+
+    public Tovars() {
+    }
+
+    public Tovars(String name, String category, String brand, String description, String imgur, Integer price) {
+        this.name = name;
+        this.category = category;
+        this.brand = brand;
+        this.description = description;
+        this.imgur = imgur;
+        this.price = price;
     }
 }
