@@ -19,9 +19,9 @@
         </div>
     </div>
 </header>
-<div class="d-flex flex-nowrap">
+<div class="d-flex align-content-center flex-wrap ms-4">
     <section class="py-5 " th:each="el : ${tovars}">
-        <div class="card ms-4" style="width: 18rem; height: 26rem">
+        <div class="card ms-5" style="width: 18rem; height: 26rem">
             <img th:src="${el.imgur}" class="card-img-top" alt="...">
             <div class="card-body" style="position: absolute; bottom: 0px">
                 <h5 class="card-title"><div th:text="${el.name}"></div></h5>
