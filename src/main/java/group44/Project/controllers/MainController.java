@@ -17,7 +17,7 @@ public class MainController {
     private TovarsRepository tovarsRepository;
     @GetMapping("/")
     public String main(Model model) {
-        model.addAttribute("title", "Main page");   
+        model.addAttribute("title", "Main page");
         Iterable<Tovars> tovars = tovarsRepository.findAll();
         model.addAttribute("tovars",tovars);
         return "Home";
@@ -40,7 +40,7 @@ public class MainController {
         t.setImgur(imgur);
 
         tovarsRepository.save(t);
-        return "redirect:/";
+        return "Home";
     }
 
 
