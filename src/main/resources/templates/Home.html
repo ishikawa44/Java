@@ -24,8 +24,9 @@
         <div class="card ms-5" style="width: 18rem; height: 26rem">
             <img th:src="${el.imgur}" class="card-img-top" alt="...">
             <div class="card-body" style="position: absolute; bottom: 0px">
+                <h4 class="card-title"><div th:text="${el.brand}"></div></h4>
                 <h5 class="card-title"><div th:text="${el.name}"></div></h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <p class="card-text" th:text="${el.price}"></p>
                 <a href="#" class="btn btn-primary" >Option</a>
             </div>
         </div>
