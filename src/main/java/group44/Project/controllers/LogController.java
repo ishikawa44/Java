@@ -11,9 +11,9 @@ public class LogController {
         model.addAttribute("title", "Sign Up");
         return "Registration";
     }
-    @GetMapping("/Login")
-    public String Login(Model model) {
-        model.addAttribute("title", "Login");
-        return "Login";
+    @GetMapping("/login")
+    public String login(Model model) {
+        model.addAttribute("title", "login");
+        return "login";
     }
 }

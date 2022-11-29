@@ -22,6 +22,22 @@ public class MainController {
         model.addAttribute("tovars",tovars);
         return "Home";
     }
+    @GetMapping("/user")
+    public String user(Model model) {
+        model.addAttribute("title", "Main page for users");
+        Iterable<Tovars> tovars = tovarsRepository.findAllByOrderByIdDesc();
+        model.addAttribute("tovars",tovars);
+        return "HomeUser";
+    }
+    @GetMapping("/admin")
+    public String admin(Model model) {
+        model.addAttribute("title", "Admin control panel");
+        Iterable<Tovars> tovars = tovarsRepository.findAllByOrderByIdDesc();
+        model.addAttribute("tovars",tovars);
+        return "Home_adm";
+    }
+
+
     @GetMapping("/add")
     public String mainAdd(Model model) {
         return "Home-add";
