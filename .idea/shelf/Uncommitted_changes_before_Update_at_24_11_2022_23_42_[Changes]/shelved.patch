@@ -1,0 +1,19 @@
+Index: src/main/resources/templates/Home.html
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><!DOCTYPE HTML>\r\n<html xmlns:th=\"http://www.thymeleaf.org\">\r\n<head>\r\n    <title th:text=\"${title}\">Getting Started: Serving Web Content</title>\r\n    <meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\" />\r\n    <link rel=\"stylesheet\" href=\"https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css\">\r\n    <link rel=\"stylesheet\" href=\"main.css\">\r\n    <link rel=\"stylesheet\" href=\"css/styles.css\">\r\n    <link rel=\"stylesheet\" href=\"mainmenu.css\">\r\n\r\n</head>\r\n<body>\r\n<header th:insert=\"blocks/header :: header\"></header>\r\n<header class=\"bg-dark py-5\">\r\n    <div class=\"container px-4 px-lg-5 my-5\">\r\n        <div class=\"text-center text-white\">\r\n            <h1 class=\"display-4 fw-bolder\">Welcome!</h1>\r\n            <p class=\"lead fw-normal text-white-50 mb-0\">Main page</p>\r\n        </div>\r\n    </div>\r\n</header>\r\n<div class=\"d-flex flex-nowrap\">\r\n    <section class=\"py-5 \" th:each=\"el : ${tovars}\">\r\n        <div class=\"card ms-4\" style=\"width: 18rem; height: 26rem\">\r\n            <img th:src=\"${el.imgur}\" class=\"card-img-top\" alt=\"...\">\r\n            <div class=\"card-body\" style=\"position: absolute; bottom: 0px\">\r\n                <h5 class=\"card-title\"><div th:text=\"${el.name}\"></div></h5>\r\n                <p class=\"card-text\">Some quick example text to build on the card title and make up the bulk of the card's content.</p>\r\n                <a href=\"#\" class=\"btn btn-primary\" >Option</a>\r\n            </div>\r\n        </div>\r\n    </section>\r\n</div>\r\n<div th:insert=\"blocks/footer :: footer\"></div>\r\n\r\n\r\n</body>\r\n</html>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/resources/templates/Home.html b/src/main/resources/templates/Home.html
+--- a/src/main/resources/templates/Home.html	(revision d24809f5937ee12756b8d53161df807cb7efd244)
++++ b/src/main/resources/templates/Home.html	(date 1669311426623)
+@@ -19,7 +19,7 @@
+         </div>
+     </div>
+ </header>
+-<div class="d-flex flex-nowrap">
++<div class="d-flex align-content-start flex-wrap">
+     <section class="py-5 " th:each="el : ${tovars}">
+         <div class="card ms-4" style="width: 18rem; height: 26rem">
+             <img th:src="${el.imgur}" class="card-img-top" alt="...">
