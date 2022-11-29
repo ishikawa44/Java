@@ -1,0 +1,39 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+  <title th:text="${title}">Getting Started: Serving Web Content</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="main.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="mainmenu.css">
+
+</head>
+<body>
+<header th:insert="blocks/header_user :: header"></header>
+<header class="bg-dark py-5">
+  <div class="container px-4 px-lg-5 my-5">
+    <div class="text-center text-white">
+      <h1 class="display-4 fw-bolder">Welcome!</h1>
+      <p class="lead fw-normal text-white-50 mb-0">Main page</p>
+    </div>
+  </div>
+</header>
+<div class="d-flex align-content-center flex-wrap ms-4">
+  <section class="py-5 " th:each="el : ${tovars}">
+    <div class="card ms-5" style="width: 18rem; height: 26rem">
+      <img th:src="${el.imgur}" class="card-img-top" alt="...">
+      <div class="card-body" style="position: absolute; bottom: 0px">
+        <h4 class="card-title"><div th:text="${el.brand}"></div></h4>
+        <h5 class="card-title"><div th:text="${el.name}"></div></h5>
+        <p class="card-text" th:text="${el.price}"></p>
+        <a href="#" class="btn btn-primary" >Option</a>
+      </div>
+    </div>
+  </section>
+</div>
+<div th:insert="blocks/footer :: footer"></div>
+
+
+</body>
+</html>
