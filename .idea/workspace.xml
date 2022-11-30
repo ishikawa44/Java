@@ -4,7 +4,25 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="703ab902-974d-4b72-9d4f-7e632b4b936c" name="Changes" comment="1.28" />
+    <list default="true" id="703ab902-974d-4b72-9d4f-7e632b4b936c" name="Changes" comment="1.28">
+      <change afterPath="$PROJECT_DIR$/src/main/java/group44/Project/models/Role.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/group44/Project/models/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/group44/Project/repo/UserRepo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Java.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Java.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_24_11_2022_21_13__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_24_11_2022_21_13__Changes_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_24_11_2022_22_51__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_24_11_2022_22_51__Changes_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_24_11_2022_23_35__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_24_11_2022_23_35__Changes_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_24_11_2022_23_42__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_24_11_2022_23_42__Changes_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_25_11_2022_16_46__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_25_11_2022_16_46__Changes_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/group44/Project/controllers/LogController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/group44/Project/controllers/LogController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/group44/Project/controllers/WebSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/group44/Project/controllers/WebSecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/Registration.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/Registration.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/blocks/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/blocks/header.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/blocks/header_adm.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/blocks/header_adm.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/blocks/header_user.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/blocks/header_user.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/login.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -81,6 +99,17 @@
     </key>
   </component>
   <component name="RunManager">
+    <configuration default="true" type="JetRunConfigurationType">
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ProjectApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="Java" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="group44.Project.ProjectApplication" />
@@ -121,6 +150,10 @@
       <workItem from="1669439131680" duration="346000" />
       <workItem from="1669648275976" duration="7857000" />
       <workItem from="1669733688999" duration="5408000" />
+      <workItem from="1669742893195" duration="297000" />
+      <workItem from="1669743211834" duration="83000" />
+      <workItem from="1669789887707" duration="7171000" />
+      <workItem from="1669821607543" duration="6878000" />
     </task>
     <task id="LOCAL-00001" summary="1.12">
       <created>1668620278716</created>
