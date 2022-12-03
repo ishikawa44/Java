@@ -65,4 +65,10 @@ public class MainController {
         model.addAttribute("title", "about");
         return "about";
     }
+    @GetMapping("/product")
+    public String product(Model model) {
+        model.addAttribute("title", "Product information");
+        return "product_info";
+    }
+
 }

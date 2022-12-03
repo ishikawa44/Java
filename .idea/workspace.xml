@@ -4,23 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="703ab902-974d-4b72-9d4f-7e632b4b936c" name="Changes" comment="1.28">
-      <change afterPath="$PROJECT_DIR$/src/main/java/group44/Project/models/Role.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/group44/Project/models/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/group44/Project/repo/UserRepo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Java.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Java.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_24_11_2022_21_13__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_24_11_2022_21_13__Changes_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_24_11_2022_22_51__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_24_11_2022_22_51__Changes_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_24_11_2022_23_35__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_24_11_2022_23_35__Changes_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_24_11_2022_23_42__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_24_11_2022_23_42__Changes_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_25_11_2022_16_46__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_25_11_2022_16_46__Changes_.xml" afterDir="false" />
+    <list default="true" id="703ab902-974d-4b72-9d4f-7e632b4b936c" name="Changes" comment="2.0">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/product_info.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/group44/Project/controllers/LogController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/group44/Project/controllers/LogController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/group44/Project/controllers/MainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/group44/Project/controllers/MainController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/group44/Project/controllers/WebSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/group44/Project/controllers/WebSecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/group44/Project/models/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/group44/Project/models/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/mainmenu.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/mainmenu.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/Home-add.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/Home-add.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/Home.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/Home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/HomeUser.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/HomeUser.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/Home_adm.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/Home_adm.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/Registration.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/Registration.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/blocks/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/blocks/header.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/blocks/header_adm.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/blocks/header_adm.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/about.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/blocks/header_user.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/blocks/header_user.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/styles.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/login.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -31,8 +29,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="Class" />
+        <option value="HTML File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -84,6 +83,7 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
@@ -153,7 +153,9 @@
       <workItem from="1669742893195" duration="297000" />
       <workItem from="1669743211834" duration="83000" />
       <workItem from="1669789887707" duration="7171000" />
-      <workItem from="1669821607543" duration="6878000" />
+      <workItem from="1669821607543" duration="7263000" />
+      <workItem from="1669903229410" duration="2717000" />
+      <workItem from="1669905995099" duration="6707000" />
     </task>
     <task id="LOCAL-00001" summary="1.12">
       <created>1668620278716</created>
@@ -246,7 +248,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669736705314</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="2.0">
+      <created>1669835120181</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1669835120181</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -275,6 +284,7 @@
     <MESSAGE value="1.26" />
     <MESSAGE value="1.27 stable" />
     <MESSAGE value="1.28" />
-    <option name="LAST_COMMIT_MESSAGE" value="1.28" />
+    <MESSAGE value="2.0" />
+    <option name="LAST_COMMIT_MESSAGE" value="2.0" />
   </component>
 </project>
