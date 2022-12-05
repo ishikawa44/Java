@@ -4,22 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="703ab902-974d-4b72-9d4f-7e632b4b936c" name="Changes" comment="2.0">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/product_info.html" afterDir="false" />
+    <list default="true" id="703ab902-974d-4b72-9d4f-7e632b4b936c" name="Changes" comment="2.1">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/group44/Project/controllers/LogController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/group44/Project/controllers/LogController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/group44/Project/controllers/MainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/group44/Project/controllers/MainController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/group44/Project/controllers/WebSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/group44/Project/controllers/WebSecurityConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/group44/Project/models/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/group44/Project/models/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/mainmenu.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/mainmenu.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/Home-add.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/Home-add.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/group44/Project/repo/TovarsRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/group44/Project/repo/TovarsRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/Home.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/Home.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/HomeUser.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/HomeUser.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/Home_adm.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/Home_adm.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/Registration.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/Registration.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/about.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/blocks/header_user.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/blocks/header_user.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/blocks/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/blocks/header.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/product_info.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/product_info.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -156,6 +151,10 @@
       <workItem from="1669821607543" duration="7263000" />
       <workItem from="1669903229410" duration="2717000" />
       <workItem from="1669905995099" duration="6707000" />
+      <workItem from="1670051981332" duration="220000" />
+      <workItem from="1670055793066" duration="1731000" />
+      <workItem from="1670059243650" duration="244000" />
+      <workItem from="1670254138066" duration="9910000" />
     </task>
     <task id="LOCAL-00001" summary="1.12">
       <created>1668620278716</created>
@@ -255,7 +254,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669835120181</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="2.1">
+      <created>1670052086861</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1670052086861</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -285,6 +291,7 @@
     <MESSAGE value="1.27 stable" />
     <MESSAGE value="1.28" />
     <MESSAGE value="2.0" />
-    <option name="LAST_COMMIT_MESSAGE" value="2.0" />
+    <MESSAGE value="2.1" />
+    <option name="LAST_COMMIT_MESSAGE" value="2.1" />
   </component>
 </project>

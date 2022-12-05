@@ -26,7 +26,7 @@
                 <h4 class="card-title"><div th:text="${el.brand}"></div></h4>
                 <h5 class="card-title"><div th:text="${el.name}"></div></h5>
                 <p class="card-text" th:text="${el.price}"></p>
-                <a href="#" class="btn btn-primary" >Option</a>
+                <a th:href="'/prod/' + ${el.id}" class="btn btn-primary" >Option</a>
             </div>
         </div>
     </section>

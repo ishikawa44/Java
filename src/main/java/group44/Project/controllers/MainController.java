@@ -5,11 +5,10 @@ import group44.Project.repo.TovarsRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestParam;
-import org.springframework.web.bind.annotation.ResponseBody;
-import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.*;
+
+import java.util.ArrayList;
+import java.util.Optional;
 
 @Controller
 public class MainController {
@@ -65,9 +64,14 @@ public class MainController {
         model.addAttribute("title", "about");
         return "about";
     }
-    @GetMapping("/product")
-    public String product(Model model) {
-        model.addAttribute("title", "Product information");
+
+    @GetMapping("/prod/{id}")
+    public String product_description(@PathVariable(value = "id") long id, Model model) {
+        model.addAttribute("title", "Description");
+        Optional<Tovars> tovar = tovarsRepository.findAllById(id);
+        ArrayList<Tovars> res = new ArrayList<>();
+        tovar.ifPresent(res::add);
+        model.addAttribute("tovar",res);
         return "product_info";
     }
 
